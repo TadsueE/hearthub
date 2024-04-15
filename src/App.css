@@ -1,38 +1,134 @@
-.App {
+/* Header */
+.header{
+position: absolute;
+width: 1550px;
+height: 112px;
+left: 200px;
+top: 40px;
+}
+
+.button-Aboutus {  
+  position: absolute;
+  width: 177px;
+  height: 48px;
+  right: 270px;
+  top: 32px;
+
+  background: #FFFFFF;
+  border: 2px solid #CC3834;
+  border-radius: 17px;
+
+  font-family: 'Judson';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
   text-align: center;
+  color: #CC3834;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-Aboutweb {
+  position: absolute;
+  width: 245px;
+  height: 48px;
+  right: 0px;
+  top: 32px;
+
+  background: #FFFFFF;
+  border: 2px solid #CC3834;
+  border-radius: 17px;
+  
+  font-family: 'Judson';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  color: #CC3834;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-header{
+position: absolute;
+width: 168px;
+height: 112px;
+left: 0px;
+top: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* Main Content */
+.Main-content{
+  position: absolute;
+  width: 1500px;
+  height: 512px;
+  left: 190px;
+  top: 210px;
 }
 
-.App-link {
-  color: #61dafb;
+.Main-heart{
+  position: absolute;
+  width: 790px;
+  height: 620px;
+  left: 0px;
+  top: 0px;
+}
+.Main-heading{
+  /* Heart Check Hub: Stay Informed, Stay Healthy! */
+  position: absolute;
+  width: 650px;
+  height: 178px;
+  right: 110px;
+  top: 0px;
+
+  font-family: 'Jomhuria';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 96px;
+
+  color: #FC1414;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Main-Subheading{
+  position: absolute;
+  width: 648px;
+  height: 105px;
+  right: 105px;
+  top: 330px;
+
+  font-family: 'Judson';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FC1414;
 }
+.button-start{
+  position: absolute;
+  width: 250px;
+  height: 56px;
+  right: 503px;
+  top: 450px;
+
+  font-family: 'Judson';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  text-align: left;
+  color: #FFFFFF;
+  padding: 0px 12px;
+
+  background: #FC1414;
+  border: none;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+}
+
+.Arrow{
+position: absolute;
+width: 39px;
+height: 43px;
+right: 10px;
+top: 6px;
+}
+/* Component 1 */

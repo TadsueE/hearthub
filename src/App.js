@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import header from './headerlogo.png';
+import Heart from './Heart.png';
+import Arrow from './Arrow.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+      <button className="button-Aboutus"> About Us </button>
+      <button className="button-Aboutweb"> About the Web </button>
+      <img src={header} className="logo-header" alt="logo" />
+      </div>
+      <div className="Main-content">
+      <img src={Heart} className="Main-heart" alt="Heart"/>
+      <p className="Main-heading">Heart Check Hub: Stay Informed, Stay Healthy! </p>
+      <p className="Main-Subheading">A simple heart Check up by using factors that can lead to cardio vascular diseases </p>
+      <button className="button-start"> Get Started <img src={Arrow} className="Arrow" alt="arrow"/> </button>
+      </div>
     </div>
   );
 }
