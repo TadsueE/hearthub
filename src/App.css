@@ -1,10 +1,10 @@
 /* Header */
 .header{
-position: absolute;
-width: 1550px;
-height: 112px;
-left: 200px;
-top: 40px;
+  position: absolute;
+  width: 1550px;
+  height: 112px;
+  left: 200px;
+  top: 40px;
 }
 
 .button-Aboutus {  
@@ -54,7 +54,6 @@ left: 0px;
 top: 0px;
 }
 
-
 /* Main Content */
 .Main-content{
   position: absolute;
@@ -72,7 +71,6 @@ top: 0px;
   top: 0px;
 }
 .Main-heading{
-  /* Heart Check Hub: Stay Informed, Stay Healthy! */
   position: absolute;
   width: 650px;
   height: 178px;
@@ -125,10 +123,207 @@ top: 0px;
 }
 
 .Arrow{
-position: absolute;
-width: 39px;
-height: 43px;
-right: 10px;
-top: 6px;
+  position: absolute;
+  width: 39px;
+  height: 43px;
+  right: 10px;
+  top: 6px;
 }
-/* Component 1 */
+
+
+/* responsive designs applying */
+@media  (min-width: 320px) {
+  .header{
+    width: 1000px;
+    left: 150px;
+  }
+  .Main-content{
+    width: 1230px;
+    height: 512px;
+    left: 10px;
+    top: 210px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 690px;
+    height: 520px;
+  }
+  .Main-heading{
+    right: 52px;
+    width: 600px;
+  }
+  .Main-Subheading{
+    right: 100px;
+    width: 548px;
+  }
+  .button-start{
+    right: 400px;
+  }
+}
+
+@media  (min-width: 425px) {
+  .header{
+    width: 1000px;
+    left: 150px;
+  }
+  .Main-content{
+    width: 1230px;
+    height: 512px;
+    left: 10px;
+    top: 210px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 690px;
+    height: 520px;
+  }
+  .Main-heading{
+    right: 52px;
+    width: 600px;
+  }
+  .Main-Subheading{
+    right: 100px;
+    width: 548px;
+  }
+  .button-start{
+    right: 400px;
+  }
+}
+
+@media  (min-width: 768px) {
+  .header{
+    width: 1000px;
+    left: 150px;
+  }
+  .Main-content{
+    width: 1230px;
+    height: 512px;
+    left: 10px;
+    top: 210px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 690px;
+    height: 520px;
+  }
+  .Main-heading{
+    right: 52px;
+    width: 600px;
+  }
+  .Main-Subheading{
+    right: 100px;
+    width: 548px;
+  }
+  .button-start{
+    right: 400px;
+  }
+}
+
+@media  (min-width: 1024px) {
+  .header{
+    width: 1000px;
+    left: 150px;
+  }
+  .Main-content{
+    width: 1230px;
+    height: 512px;
+    left: 10px;
+    top: 210px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 690px;
+    height: 520px;
+  }
+  .Main-heading{
+    right: 52px;
+    width: 600px;
+  }
+  .Main-Subheading{
+    right: 100px;
+    width: 548px;
+  }
+  .button-start{
+    right: 400px;
+  }
+}
+
+@media  (min-width: 1440px) {
+  .header{
+    width: 1170px;
+  }
+  .Main-content{
+    width: 1330px;
+    height: 512px;
+    left: 40px;
+    top: 210px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 790px;
+    height: 620px;
+  }
+  .Main-heading{
+    right: 0px;
+  }
+  .Main-Subheading{
+    right: 0px;
+  }
+  .button-start{
+    right: 400px;
+  }
+}
+
+@media  (min-width: 1880px) {
+  .header{
+    width: 1600px;
+  }
+  .Main-content{
+    width: 1330px;
+    height: 512px;
+    left: 230px;
+    top: 210px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 790px;
+    height: 620px;
+  }
+  .Main-heading{
+    right: 0px;
+  }
+  .Main-Subheading{
+    right: 45px;
+  }
+  .button-start{
+    right: 345px;
+  }
+}
+
+@media  (min-width: 2560px) {
+  .header{
+    width: 2200px;
+  }
+  .Main-content{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 530px;
+    top: 300px;
+  }
+  .Main-heart{
+    position: absolute;
+    width: 990px;
+    height: 820px;
+  }
+  .Main-heading{
+    top: 35px;
+  }
+  .Main-Subheading{
+    top: 360px;
+  }
+  .button-start{
+    top: 490px;
+  }
+}
+
